@@ -78,34 +78,34 @@ iframe{
     background-size: cover;
     background-repeat: no-repeat;
     backface-visibility: hidden;
-    animation: bgSlide 50s linear infinite 0s;
+    animation: bgSlide 30s linear infinite 0s;
     animation-timing-function: ease-out;
-    background-image: url('/layouts/images/bg1.jpg');
+    background-image: url('/layouts/images/background/bg1.jpg');
 }
 
 @keyframes bgSlide{
     0% {
-        background-image: url('/layouts/images/bg1.jpg');       
+        background-image: url('/layouts/images/background/bg1.jpg');       
     }
 
     20% {
-        background-image: url('/layouts/images/bg3.jpg');       
+        background-image: url('/layouts/images/background/bg3.jpg');       
     }
 
     35% {
-        background-image: url('/layouts/images/bg4.jpg');       
+        background-image: url('/layouts/images/background/bg4.jpg');       
     }
 
     50%  {
-        background-image: url('/layouts/images/bg5.jpg');       
+        background-image: url('/layouts/images/background/bg5.jpg');       
     }
 
     70%  {
-        background-image: url('/layouts/images/bg6.jpg');       
+        background-image: url('/layouts/images/background/bg6.jpg');       
     }
 
     90%{
-        background-image: url('/layouts/images/bg7.jpg');
+        background-image: url('/layouts/images/background/bg7.jpg');
     }
 }
 
