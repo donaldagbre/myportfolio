@@ -74,13 +74,17 @@ iframe{
     height: 100vh;
     opacity: 0.85;
     z-index: 0;
+    position: relative;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: bgSlide 30s linear infinite 0s;
-    animation-timing-function: ease-out;
-    background-image: url('/layouts/images/background/bg1.jpg');
+    animation: bgSlide 30s infinite ease-in-out;
+    background: url('/layouts/images/background/bg1.jpg') center;
+    background: url('/layouts/images/background/bg3.jpg') center,
+                url('/layouts/images/background/bg4.jpg') center,
+                url('/layouts/images/background/bg5.jpg') center,
+                url('/layouts/images/background/bg6.jpg') center,
+                url('/layouts/images/background/bg7.jpg') center;
 }
 
 @keyframes bgSlide{
